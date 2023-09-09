@@ -1,0 +1,34 @@
+.tam-buku4{
+display: flex;
+justify-content: space-between;
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+width: 1030px;
+height: 469px;
+ background:linear-gradient(#083345,#083370); 
+border-radius: 20px;
+margin-top: 4315px;
+position: absolute;
+padding: 34px 54px;
+margin-left: 120px;
+
+}
+
+.tam-buku4 .isi-tam4{
+	text-align: center;
+	display: flex;
+	width: 940px;
+	height: ;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -30px;
+}
+
+.judul-genre4 {
+	position: absolute;
+	width: 350px;
+	height: 50px;
+	margin-top: -20px;
+	background:auto;
+	color: white;
+
+}

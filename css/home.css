@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Slab:wght@500&family=Zen+Dots&display=swap'); 
+
+/*==========BAGIAN NAVBAR==========*/
+.inibar{
+	width: cover;
+	color: #001e45;
+}
+
+
+li, a , button{
+	font-family: Zen Dots;
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px 9px;
+	background-color: #083345;
+	height: auto;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+
+.logoaja{
+	cursor: pointer;
+	margin-right: auto;
+}
+
+.order{
+ list-style: none;
+
+}
+
+.order li{
+ display: inline-block;
+ padding: 0px 20px;
+}
+
+.order li a{
+ transition: all 0.6s ease 0s;
+}
+
+.order li a:hover{
+color: #ff9845;
+}
+
+ .btn-1{
+	padding: 9px 25px;
+	background-color:white;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+	color: #659ffc;
+}
+ .btn-1:hover{
+	background-color:#8aff8e;
+
+	
+}
+
+.kepala-10{
+float:left;
+ width: 100%;
+ height: 575px;
+ background-color:#083345; 
+ text-align: auto;
+ padding:240px 15px;
+ position: absolute;
+}
+
+.box {
+color: #FFF;
+}
+.box : after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.box .col-4{
+	width: 65px;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+.icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	margin: 0 auto;
+}
+.box .col-4 h4 {
+	margin: 20px 0;
+}
+
+.service{
+ width: 630px;
+ margin-top: 490px;
+ position: absolute;
+ padding: -200px;
+
+
+}
+
+.kata-1{
+float: left;
+text-align:left;
+margin-left: 90px;
+width: 600px;
+background-color:#083345;  
+text-align: auto;
+padding:40px 25px;
+margin-top:100px;
+position: absolute;
+font-family: Oswald;
+color: white;
+}
+
+.kata-1 p{
+	font-size: 50px;
+}
+
+.btn-registari{
+float: left;
+margin-left:425px;
+width: 100px;
+background-color:#083345;  
+text-align: auto;
+padding:20px 25px;
+margin-top:288px;
+position: absolute;
+font-family: Oswald;
+color: white;
+
+}
+.btn-registari button{
+	font-size: 20px;
+	background-color: #ff9845;
+	color: black;
+
+}
+.btn-registari button:hover{
+	background-color: #6aefdd;
+
+}
+.gambarebook{
+float: left;
+text-align:left;
+margin-left: 850px;
+width: 250px;
+background-color:#083345;  
+text-align: auto;
+padding:10px 25px;
+margin-top:100px;
+position: absolute;
+font-family: Oswald;
+color: white;
+}
+
+.gambarebook h5{
+	margin-top: 20px;
+	font-size: 30px;
+	text-align: center;
+	font-family: Zen Dots;
+}
+
+/*==========BAGIAN NAVBAR==========*/
+
+/*==========BAGIAN BAR PROMO==========*/
+.inislide1{
+float: left;
+width: 787px;
+background-color:white;  
+padding:10px 5px;
+margin-top:575px;
+margin-left: 40px;
+
+}
+
+.promosi1{
+width: 245px;
+background-color: white;
+position: absolute;
+margin-top: 585px;
+margin-left: 832px;
+
+}
+
+.promosi1 img {
+	border-radius: 10px;
+}
+
+.carousel-inner{
+	border-radius: 10px;
+}
+
+.promosi2{
+width: 245px;
+background-color: white;
+position: absolute;
+margin-top: 800px;
+margin-left: 832px;
+
+}
+
+.promosi2 img {
+	border-radius: 10px;
+}
+/*==========BAGIAN BAR PROMO==========*/
+
+/*==========BAGIAN LINK==========*/
+
+.icon1{
+width: 125px;
+position: absolute;
+margin-top: 1050px;
+margin-left: 150px;
+text-align: center;
+}
+
+.link-1{
+	color: black;
+	font-family: oswald;
+	font-size: 24px;
+}
+
+.link-1:hover{
+	color:black;
+}
+
+.icon2{
+width: 125px;
+position: absolute;
+margin-top: 1050px;
+margin-left: 350px;
+text-align: center;
+}
+
+
+
+.icon3 {
+width: 125px;
+position: absolute;
+margin-top: 1050px;
+margin-left: 550px;
+text-align: center;
+}
+
+
+.icon4{
+width: 125px;
+position: absolute;
+margin-top: 1050px;
+margin-left: 750px;
+text-align: center;
+}
+
+
+
+.icon5{
+width: 125px;
+position: absolute;
+margin-top: 1050px;
+margin-left: 950px;
+text-align: center;
+}
+/*==========BAGIAN LINK==========*/
+
+/*==========BAGIAN BUKU==========*/
+
+.tam-buku{
+box-shadow: 20px;
+align-items: center;
+width: 1030px;
+height: 479px;
+background-color:#083345;
+border-style: outset;
+border-radius: 20px;
+margin-top: 1280px;
+position: absolute;
+padding: 35px 54px;
+margin-left: 120px;
+
+}
+
+.judul-genre {
+	width: 350px;
+	height: 20px;
+	margin-top: -15px;
+	background-color: #083345;
+	color: white;
+
+}
+
+.buku1 {
+	width: 200px;
+	text-align: center;
+	background-color: #083345;
+	margin-top: 36px;
+}
+
+.buku2 {
+	width: 200px;
+	background-color:#083345;
+	text-align: center;
+	margin-left: 241px;
+	margin-top: -364px;
+}
+
+.card{
+	box-shadow:  2px 2px 3px rgba(0,0,0,0.8);
+}
+
+.buku3 {
+	width: 200px;
+	background-color:#083345;
+	text-align: center;
+	margin-left: 475px;
+	margin-top: -363px;
+}
+
+.buku4 {
+	width: 200px;
+	background-color:#083345;
+	text-align: center;
+	margin-left: 711px;
+	margin-top: -360px
+}
+
+.tam-buku2{
+box-shadow: 20px;
+width: 1030px;
+height: 479px;
+background-color:#ffa3d8;
+border-style: outset;
+border-radius: 20px;
+margin-top: 1800px;
+position: absolute;
+padding: 34px 54px;
+margin-left: 120px;
+}
+
+.tam-buku2 .buku5 {
+	width: 200px;
+	background-color:#ffa3d8;
+	text-align: center;
+	margin-top: 42px;
+}
+
+.tam-buku2  .buku6 {
+	width: 200px;
+	background-color:#ffa3d8;
+	text-align: center;
+	margin-left: 241px;
+	margin-top: -363px;
+}
+
+.tam-buku2  .buku7 {
+	width: 200px;
+	background-color:#ffa3d8;
+	text-align: center;
+	margin-left: 475px;
+	margin-top: -363px;
+}
+
+.tam-buku2 .buku8 {
+	width: 200px;
+	background-color:#ffa3d8  ;
+	text-align: center;
+	margin-left: 711px;
+	margin-top: -360px;
+}
+
+.tam-buku2 .judul-genre2 {
+	width: 350px;
+	height: 20px;
+	margin-top: -15px;	
+	color: white;
+
+}
+
+
+/*==========BAGIAN BUKU==========*/
+
+
+
+
+
+

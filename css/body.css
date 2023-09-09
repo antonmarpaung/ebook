@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+body { background: #000000; }
+#wrapper a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: 'Hammersmith One', sans-serif;
+}
+#wrapper {
+    width: 130px;
+    margin: auto;
+    height: 30px;
+    padding: 12px;
+    display: block;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    border: 3px solid #D04E2E;
+    background-color: #D04E2E;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+#wrapper:hover {
+    background-color: #FE5A27;
+    border: 3px solid #FE5A27;
+}
+#wrapper span {
+    position: absolute;
+    background: none;
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+}
+#wrapper .left,
+#wrapper .right {
+    height: 50%;
+    width: 2px;
+}
+#wrapper .top,
+#wrapper .bottom {
+    width: 50%;
+    height: 2px;
+}
+#wrapper .left {
+    left: -2px;
+    bottom: -140%;
+}
+#wrapper:hover .left {
+    background: #FE5A27;
+    bottom: 0;
+    border-radius: 40px;
+}
+#wrapper .right {
+    right: -2px;
+    top: -140%;
+}
+#wrapper:hover .right {
+    background: #FE5A27;
+    top: 0;
+}
+#wrapper .top {
+    top: -2px;
+    left: -140%;
+}
+#wrapper:hover .top {
+    background: #FE5A27;
+    left: 0;
+}
+#wrapper .bottom {
+    bottom: -2px;
+    right: -140%;
+}
+#wrapper:hover .bottom {
+    background: #FE5A27;
+    right: 0;
+}

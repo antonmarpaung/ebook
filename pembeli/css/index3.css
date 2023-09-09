@@ -1,0 +1,941 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Slab:wght@500&family=Zen+Dots&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+/*==========BAGIAN NAVBAR==========*/
+.inibar{
+	width: cover;
+	color: #001e45;
+}
+
+
+li, a , button{
+	font-family: Zen Dots;
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px 9px;
+	 background:linear-gradient(#083359,#083345); 
+	height: auto;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+
+.logoaja{
+	cursor: pointer;
+	margin-right: auto;
+}
+
+.order{
+ list-style: none;
+
+}
+
+.order li{
+ display: inline-block;
+ padding: 0px 20px;
+}
+
+.order li a{
+ transition: all 0.6s ease 0s;
+}
+
+.order li a:hover{
+color: #ff9845;
+}
+
+ .btn-1{
+	padding: 9px 25px;
+	background : linear-gradient(to right, #96FA7F,#2CC989);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+	color: white;
+}
+ .btn-1:hover{
+	background-color:white;
+	z-index: 1;
+	animation: glow 8s linear infinite;
+
+	
+}
+
+.kepala-10{
+float:left;
+ width: 100%;
+ height: 575px;
+ background:linear-gradient(#083345,#083359); 
+ text-align: auto;
+ padding:240px 15px;
+ position: absolute;
+}
+
+.box {
+color: #FFF;
+}
+.box : after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.box .col-4{
+	width: 65px;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+.icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	margin: 0 auto;
+}
+.box .col-4 h4 {
+	margin: 20px 0;
+}
+
+.service{
+ width: 630px;
+ margin-top: 490px;
+ position: absolute;
+ padding: -200px;
+
+
+}
+
+.kata-1{
+float: left;
+text-align:left;
+margin-left: 90px;
+width: 650px;
+background:auto;  
+text-align: auto;
+padding:40px 25px;
+margin-top:100px;
+position: absolute;
+font-family: Oswald;
+color: white;
+}
+
+.kata-1 p{
+	font-size: 50px;
+}
+
+.btn-registari{
+float: left;
+margin-left:425px;
+width: 100px;
+background-color:auto;  
+text-align: auto;
+padding:20px 25px;
+margin-top:288px;
+position: absolute;
+font-family: Oswald;
+color: white;
+
+}
+.btn-registari button{
+	font-size: 20px;
+	background-color: #ff9845;
+	color: #262626;
+
+}
+.btn-registari button:hover{
+	background-color: #6aefdd;
+
+}
+.gambarebook{
+float: left;
+text-align:left;
+margin-left: 850px;
+width: 250px;
+background-color:auto;  
+text-align: auto;
+padding:10px 25px;
+margin-top:100px;
+position: absolute;
+font-family: Oswald;
+color: white;
+}
+
+.gambarebook h5{
+	margin-top: 20px;
+	font-size: 30px;
+	text-align: center;
+	font-family: Zen Dots;
+}
+
+/*==========BAGIAN NAVBAR==========*/
+
+/*==========BAGIAN BAR PROMO==========*/
+.inislide1{
+float: left;
+width: 787px;
+background-color:white;  
+padding:10px 5px;
+margin-top:575px;
+margin-left: 40px;
+
+}
+
+.promosi1{
+width: 245px;
+background-color: white;
+position: absolute;
+margin-top: 585px;
+margin-left: 832px;
+
+}
+
+.promosi1 img {
+border-radius: 10px;
+  box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+}
+
+.carousel-inner{
+	border-radius: 10px;
+}
+
+.promosi2{
+width: 245px;
+background-color: white;
+position: absolute;
+margin-top: 800px;
+margin-left: 832px;
+
+}
+
+.promosi2 img {
+	border-radius: 10px;
+	box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+}
+/*==========BAGIAN BAR PROMO==========*/
+
+/*==========BAGIAN LINK==========*/
+
+.icon1{
+width: 125px;
+position: absolute;
+margin-top: 1078px;
+margin-left: 190px;
+text-align: center;
+}
+
+
+.link-1{
+	color: black;
+	font-family: oswald;
+	font-size: 24px;
+}
+
+.link-1:hover{
+	color:royalblue;
+}
+
+.icon2{
+width: 125px;
+position: absolute;
+margin-top: 1078px;
+margin-left: 380px;
+text-align: center;
+}
+
+
+
+.icon3 {
+width: 125px;
+position: absolute;
+margin-top: 1078px;
+margin-left: 580px;
+text-align: center;
+}
+
+
+.icon4{
+width: 125px;
+position: absolute;
+margin-top: 1078px;
+margin-left: 780px;
+text-align: center;
+}
+
+
+
+.icon5{
+width: 125px;
+position: absolute;
+margin-top: 1078px;
+margin-left: 970px;
+text-align: center;
+}
+
+.kat-ter1{
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+width: 1030px;
+height: 230px;
+background:linear-gradient(#c1cad9,#b6b8ba); 
+border-radius: 20px;
+margin-top: 990px;
+position: absolute;
+padding: 14px 54px;
+margin-left: 120px;
+font-family: oswald;
+font-size: 40px;
+text-align: center;
+
+}
+/*==========BAGIAN LINK==========*/
+
+/*==========BAGIAN BUKU==========*/
+
+
+
+.tam-buku{
+display: flex;
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+justify-content: space-between;
+align-items: center;
+display: flex;flex-wrap: wrap;
+width: 100%;
+height: 479px;
+background:linear-gradient(#083345,#083370); 
+border-radius: 20px;
+margin-top: 1280px;
+position: absolute;
+padding: 15px 44px;
+
+}
+
+.tam-buku .isi-tam{
+	text-align: center;
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -20px;
+}
+
+.judul-genre {
+	position: absolute;
+	width: 350px;
+	height: 20px;
+	margin-top: -435px;
+	background:auto;
+	color: white;
+
+}
+
+
+.card{
+	box-shadow:  2px 2px 3px rgba(0,0,0,0.8);
+}
+
+
+.tam-buku2{
+display: flex;
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+justify-content: space-between	;
+align-items: center;
+width: 100%;
+height: 479px;
+background:linear-gradient(#083345,#083370); 
+border-radius: 20px;
+margin-top: 1800px;
+position: absolute;
+padding: 15px 44px;
+
+}
+
+.tam-buku2 .isi-tam2{
+	text-align: center;
+	display: flex;flex-wrap: wrap;
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -25px;
+}
+
+.judul-genre2 {
+	position: absolute;
+	width: 350px;
+	height: 50px;
+	margin-top: -400px;
+	background:auto;
+	color: white;
+
+}
+
+
+.tam-buku3{
+display: flex;
+justify-content: space-between;
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+width: 100%;
+height: 469px;
+ background:linear-gradient(#083345,#083370); 
+border-radius: 20px;
+margin-top: 2315px;
+position: absolute;
+padding: 34px 54px;
+
+}
+
+.tam-buku3 .isi-tam3{
+	text-align: center;
+	display: flex;
+	display: flex;flex-wrap: wrap;
+	width:100%;
+	height: ;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -30px;
+}
+
+.judul-genre3 {
+	position: absolute;
+	width: 350px;
+	height: 50px;
+	margin-top: -20px;
+	background:auto;
+	color: white;
+
+}
+
+.tam-buku4{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+width: 100%;
+height: 469px;
+ background:linear-gradient(#083345,#083370); 
+border-radius: 20px;
+margin-top: 2835px;
+position: absolute;
+padding: 34px 94px;
+
+}
+
+.tam-buku4 .isi-tam4{
+	text-align: center;
+	display: flex;
+	display: flex;flex-wrap: wrap;
+	width: 100%;
+	height:auto ;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -30px;
+}
+
+.judul-genre4 {
+	position: absolute;
+	width: 350px;
+	height: 50px;
+	margin-top: -20px;
+	background:auto;
+	color: white;
+
+}
+
+.tam-buku5{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+width: 100%;
+height: 469px;
+ background:linear-gradient(#083345,#083370); 
+border-radius: 20px;
+margin-top: 3365px;
+position: absolute;
+padding: 34px 94px;
+
+}
+
+.tam-buku5 .isi-tam5{
+	text-align: center;
+	display: flex;
+	display: flex;flex-wrap: wrap;
+	width: 100%;
+	height:auto ;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -30px;
+}
+
+.judul-genre5 {
+	position: absolute;
+	width: 350px;
+	height: 50px;
+	margin-top: -20px;
+	background:auto;
+	color: white;
+
+}
+
+.tam-buku6{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+width: 100%;
+height: 469px;
+ background:linear-gradient(#083345,#083370); 
+border-radius: 20px;
+margin-top: 3898px;
+position: absolute;
+padding: 34px 94px;
+
+}
+
+.tam-buku6 .isi-tam6{
+	text-align: center;
+	display: flex;flex-wrap: wrap;
+	width: 100%;
+	height:auto ;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -30px;
+}
+
+.judul-genre6 {
+	position: absolute;
+	width: 350px;
+	height: 50px;
+	margin-top: -20px;
+	background:auto;
+	color: white;
+
+}
+
+.tam-buku7{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+width: 100%;
+height: 469px;
+ background:linear-gradient(#083345,#083370); 
+border-radius: 20px;
+margin-top: 4425px;
+position: absolute;
+padding: 34px 94px;
+
+}
+
+.tam-buku7 .isi-tam7{
+	text-align: center;
+	display: flex;
+	width: 100%;
+	height:auto ;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -30px;
+}
+
+.judul-genre7{
+	position: absolute;
+	width: 350px;
+	height: 50px;
+	margin-top: -20px;
+	background:auto;
+	color: white;
+
+}
+
+.tam-buku8{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+width: 100%;
+height: 469px;
+ background:linear-gradient(#083345,#083370); 
+border-radius: 20px;
+margin-top: 4955px;
+position: absolute;
+padding: 34px 94px;
+
+}
+
+.tam-buku8 .isi-tam8{
+	text-align: center;
+	display: flex;
+	width: 100%;
+	height:auto ;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -30px;
+}
+
+.judul-genre8{
+	position: absolute;
+	width: 350px;
+	height: 50px;
+	margin-top: -20px;
+	background:auto;
+	color: white;
+
+}
+
+
+
+/*=================BAGIAN BUKU=================*/
+
+/*=================BAGIAN INFORMASI=================*/
+
+.bravo-info{
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+width: 100%;
+height: 169px;
+ background:linear-gradient(#083345,#083370); 
+justify-content: space-between;
+border-radius: 20px;
+margin-top: 5520px;
+position: absolute;
+padding: 24px 54px;
+}
+
+.bravo-info .kat-1{
+width: 400px;
+background:auto;
+text-align: center;
+height: 90	px;
+font-size: 40px;
+margin-left: 95px;
+font-family: oswald;
+color: white;
+}
+
+.bravo-info .kat-2{
+width: 360px;
+margin-top: -80px;
+background:auto;
+text-align: center;
+font-size:25px;
+margin-left: 690px;
+font-family: oswald;
+color: white;
+}
+
+.tam-info{
+display: flex;
+box-shadow: 20px;
+width: 1030px;
+height: auto;
+background:linear-gradient(#083345,#083370); 
+border-radius: 20px;
+margin-top: 5770px;
+position: absolute;
+padding: 24px 24px;
+margin-left: 2%;
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+}
+
+
+
+.tam-info .colok-1{
+	width: 300px;
+	height: auto;
+	margin-left: 45px;
+	align-items: center;
+	orientation: auto;
+	border-radius: 10px;
+	background-color: auto;
+
+}
+
+.tam-info .colok-2{
+	width: 490px;
+	height: 300px;
+	margin-left: 90px;
+	margin-top: 45px;
+	text-align: left;		
+	font-family: montserrat;
+	font-size: 27px;
+	color: white;
+}
+
+
+.tam-info .colok-2 .par-2{
+	font-size: 16px;
+	color: white;
+}
+
+.tam-info2{
+display: flex;
+box-shadow: 20px;
+width: 1030px;
+height: auto;
+background:linear-gradient(#083345,#083370); 
+border-radius: 20px;
+margin-top:6260px;
+position: absolute;
+padding: 24px 24px;
+margin-left: 15%;
+box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+}
+
+.tam-info2 .als-1{
+
+    width: 500px;
+	height: auto;
+	color: white;
+	margin-left: 25px;
+	font-family: montserrat;
+	font-size: 25px;
+	margin-top: 45px;
+	align-items: left;
+	border-radius: 10px;
+	background-color: auto;	
+
+}
+
+.tam-info2 .als-2{
+
+   width: 300px;
+	height: auto;
+	margin-left: 95px;
+	align-items: flex-end;
+	orientation: auto;
+	border-radius: 10px;
+	background-color: auto;
+
+}
+
+.tam-info2 .als-1 .par-2{
+	font-size: 16px;
+	color: white;
+}
+
+.kal-info{
+display: flex;
+flex-wrap:wrap ;
+width: 100%;
+background: linear-gradient(#ebeff5,#dfe8f7);
+height: 665px;
+align-items: center;
+margin-top:6767px;
+position: absolute;
+padding: 94px 24px;
+
+}
+
+ .kal-info .cup-info{
+	width: auto;
+	margin-top: -480px;
+	margin-left: 29%;
+	position: absolute;
+	font-family: signika negative;
+}
+
+
+
+.kal-info .gam-info2{
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+	height: 150px;
+	padding: 12px 12px;
+	margin-left: 12%;
+	margin-top: 2%;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.gam-info2 .gam-text3{
+	font-family: signika negative;
+	padding: 1px 20px;
+	width: 20;
+	margin-top: -15%;
+	margin-left: 35%;
+}
+	.gam-info2 .gam-text2{
+	padding: 1px 60px;
+	font-family: signika negative;
+}
+
+.gambar-bocah{
+	display: flex;
+	position: absolute;
+	width: 100%;
+	justify-content: space-between;
+	border-radius: 10px;
+	margin-left: ;
+	margin-top: 7375px;
+	padding: 24px 24px;
+	align-items: center;
+	
+}
+
+.gambar-bocah .zandi{
+	width: auto;
+	height: auto;
+	margin-bottom: 5% ;
+	margin-left: -1%;	
+}
+
+.gambar-bocah .abi{
+	width: auto;
+	position: absolute;
+	height: auto;
+	margin-bottom: 5%;
+	margin-left: 15%;	
+}
+.gambar-bocah .fito{
+	width: auto;
+	position: absolute;
+	height: auto;
+	margin-left: 34%;
+	margin-bottom: 9%;	
+}
+.gambar-bocah .anton{
+	width: auto;
+	position: absolute;
+	height: auto;
+	margin-left: 60%;
+	margin-top: 4%;	
+}
+
+.gambar-bocah .jhoni{
+	width: auto;
+	position: absolute;
+	height: auto;
+	margin-left: 80%;
+	margin-top: 3%;	
+}
+
+
+
+
+.alpa-1{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	background: linear-gradient(#083345,#083370);
+	margin-top: 7730px;
+	padding: 4px 94px 10px 24px;
+
+}
+
+.alpa-1 .judul-apa{
+	display: flex;
+	flex-wrap: wrap;
+	width:320px;
+	height: 300px;
+	padding: 12px 12px;
+	margin-left: 2%;
+	border-radius: 10px;
+	font-family: signika negative;
+}
+
+.judul-apa .text-2{
+	margin-left: 20px;
+	margin-top: 25px;
+	color: white;
+}
+
+.text-1{
+	color: white;
+	align-items: center;
+	width: 255px;
+	margin-bottom: 100px;
+	font-size: 20px;
+	margin-left: 90px;
+}
+
+.alpa-1 .out-1{
+	display: flex;
+	flex-wrap: wrap;
+	width:250px;
+	height: 300px;
+	padding: 12px 12px;
+	font-size: 20px;
+	font-family: signika negative;
+
+}
+
+.out-1 .text-3{
+	font-family: signika negative;
+	margin-top:15px;
+	color: white;
+}
+
+ .list .li-1{
+	color: white;
+	font-family: signika negative;
+	list-style-image:url(../img/ig.ico) ;
+	list-style-image width:100px ;
+}
+
+.list-1 .li-2{
+	color: white;
+	font-family: signika negative;
+	list-style-image:url(../img/fb.ico) ;
+	list-style-image width:100px ;
+}
+
+.list-2 .li-3{
+	color: white;
+	font-family: signika negative;
+	list-style-image:url(../img/yt.ico) ;
+	list-style-image width:100px ;
+}
+
+.list-3 .li-4{
+	color: white;
+	font-family: signika negative;
+	list-style-image:url(../img/tik.ico) ;
+	list-style-image width:100px ;
+}
+.alpa-1 .ourmaster{
+	text-align: center;
+	align-items: center;
+	width: 200px;
+	color: white;
+	margin-top: 60px;
+	
+}
+
+.ourmaster .pakmardi{
+	width: 140px;
+	height: auto;
+	margin-top: -20px;
+	margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

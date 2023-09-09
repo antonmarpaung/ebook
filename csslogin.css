@@ -1,0 +1,62 @@
+body{
+  font-family: sans-serif;
+  background-image: url(https://dpk.kalbarprov.go.id/wp-content/uploads/2018/01/public-library-interior-stack-book-bookshelf-flat_7081-838.jpg);
+}
+p{
+  color: #4EB877;
+}
+ 
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  /*ketebalan font*/
+  font-weight: 100;
+}
+ 
+.lihat{
+  font-size: 18px;
+}
+.login{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #4EB877;
+}
+ 
+ .belum{
+  color: white;
+ }
+.card{
+  width: 550px;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 20px;
+  box-shadow: 1px 5px 20px rgba(0, 0, 0, 2.0);
+  margin: 60px auto;
+  padding: 50px 30px;
+}
+ 
+label{
+  font-size: 14pt;
+  font-family: sans-serif;
+  color: white;
+}
+ 
+.form_login{
+  /*membuat lebar form penuh*/
+  box-sizing : border-box;
+  width: 100%;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 11pt;
+  margin-bottom: 15px;
+}
+.input-group-text{
+  margin-bottom: 50px;
+}
+.link{
+  color: #fde87c;
+  text-decoration: none;
+  font-size: 10pt;
+}

@@ -1,0 +1,104 @@
+
+
+.sidebar{
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	margin-top: -20px;
+	left: 0px;
+	background: #1b1b1b;
+	
+}
+
+.btn-success{
+	position: absolute;
+	top: 50px;
+	margin-left: 300px;
+	
+}
+
+.table{
+	margin-top: 30px;
+}
+
+.sidebar .text{
+color: white;
+margin-left: -80px;
+font-size: 25px;
+font-weight: 600;
+line-height: 65px;
+text-align: center;
+background: #083345;
+letter-spacing: 1px;
+}
+nav ul{
+	background: #083356;
+	height: 100%;
+	width: 100%;
+	list-style: none;
+}
+
+nav ul li{
+	line-height: 60px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	margin-left: -40px;
+	font-family: 'Popins', sans-serif;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-left: 40px;
+	font-weight: 500;
+	display: block;
+	width: 100%;
+	border-left-color: 3px solid transparent;
+}
+nav ul li a:hover{
+	color: #ffe96d;
+	background: #1e1e1e;
+	border-left-color: cyan;
+}
+nav ul ul{
+	position: static;
+	border-bottom: none;
+	display: none;
+}
+nav ul .feat-show.show{
+	display: block;
+}
+
+nav ul .serv-show.show1{
+	display: block;
+}
+
+
+nav ul ul li{
+	line-height: 42px;
+	border-bottom: none;
+
+}
+
+nav ul ul li a{
+	font-size: 17px;
+	color:#e6e6e6 ;
+	padding-left: 80px;
+
+}
+nav ul ul li a span{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	font-size: 22px;
+	transition: transform 0.4s;
+}
+nav ul ul li a:hover span{
+	transform: translateY(-50%) rotate(-180deg);
+}
+.sidebar.show{
+	left: 0px;
+}
+.text1{
+	margin-top: 20px;
+}

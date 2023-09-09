@@ -1,0 +1,51 @@
+
+.panel-1{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 10px 24px;
+	height: auto;
+	margin-top: 200px;
+
+}
+
+.panel-1 .bku-1{
+	align-items: center;
+	background-color: whitesmoke;
+	width: 330px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow:1px 1px 2px 2px rgba(0,0,0,0.4);
+
+}
+.panel-body-1{
+	display: flex;
+	flex-direction: column;
+	width:auto;
+	background-color: grey;
+	height: 400px;
+	margin-left: 45px;
+	padding: 10px 12px;
+}
+
+.panel-body-1 .ket-1{
+	width: 170px;
+	text-align: center;
+	background-color: white;
+}
+
+.panel-body-1 .ket-2{
+	width: 390px;
+	text-align: justify;
+	margin-top: 20px;
+	background-color:grey;
+
+}
+
+.panel-body-1 .desk-1{
+	width: 390px;
+	text-align: center;
+	margin-top: 20px;
+	background-color: white;
+}
